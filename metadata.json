@@ -1,0 +1,6 @@
+{
+  "name": "Genlayer Royale",
+  "description": "A decentralized Crypto Royale clone with on-chain lobbies, provably fair mechanics, and high-performance Web3 integrations for the Genlayer mainnet.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

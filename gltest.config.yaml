@@ -1,0 +1,14 @@
+defaults:
+  mode: local
+  local_rpc_url: http://127.0.0.1:8545
+  studio_rpc_url: https://studio.genlayer.com
+  timeout: 30
+  verbosity: 2
+
+test_suites:
+  direct_mocked:
+    directory: tests/direct
+    pattern: "test_*.py"
+    env:
+      MOCK_LLM: "true"
+      MOCK_WEB: "true"
